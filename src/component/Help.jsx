@@ -4,15 +4,20 @@ import verify from '../assets/verify.png'
 import featured from '../assets/medal.svg'
 import star from '../assets/Star 1.svg'
 import info from '../assets/info-circle.svg'
+import Helptwo from './Helptwo'
+import Nav from './Nav'
+import { Link } from 'react-router-dom'
 
 const Help = () => {
     return (
-        <div>
+        <div className='leading-10 m-10' >
             <div className='flex gap-[400px] border-b border-gray-200 ' >
+                <Link to='/' >
                 <div className='flex gap-5' >
                     <img src={touchIcon} alt='' className='w-20 h-20' />
                     <h1 className="Helpmeout text-black text-5xl font-semibold font-['Sora']">HelpMeOut</h1>
                 </div>
+                </Link>
                 <div className="Frame368 px-4 py-3 bg-sky-600 rounded justify-center items-center gap-2.5 flex">
                     <div className="AddToChrome text-white text-lg font-medium font-['Work Sans']">Add to Chrome</div>
                 </div>
@@ -60,6 +65,9 @@ const Help = () => {
                     <h3>80,000 + users</h3>
                 </div>
             </div>
+
+            <Nav/>
+            <Helptwo/>
         </div>
     )
 }

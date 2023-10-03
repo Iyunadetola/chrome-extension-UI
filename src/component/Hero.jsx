@@ -5,7 +5,7 @@ import img3 from '../assets/Frame 1000002597.png'
 import img4 from '../assets/grid.136a9256d16888900db0.svg (1).png'
 import img5 from '../assets/grid.136a9256d16888900db0.svg.png'
 import arrow from '../assets/arrow-right.png'
-import Container from './container/container'
+import Container from './container/Container'
 import { Link } from 'react-router-dom'
 
 
@@ -20,7 +20,7 @@ const Hero = () => {
                     </div>
                     <p className="  text-black text-opacity-75 max-w-[548px] text-xl font-normal font-['Inter'] leading-7 mb-6 " >Help your friends and loved ones by creating and sending videos on how to get things done on a website.</p>
                     <div className=' px-6 py-5 bg-indigo-950 w-max rounded-lg justify-center items-center gap-2 ' >
-                        <Link to='/https://drive.google.com/drive/folders/1hI_FPU_ktO6EuiDMu5sqM1kOoLGalYlV' >
+                        <Link to='/help' >
                         <button className=" flex items-center gap-[1rem] text-white text-lg font-medium font-['Work Sans']" >Install HelpMeOut
                         <img className='' src={arrow} alt='' />
                         </button>

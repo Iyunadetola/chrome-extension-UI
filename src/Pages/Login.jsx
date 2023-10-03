@@ -16,19 +16,19 @@ const Login = () => {
                 </Link>
             </div>
 
-            <div className="mx-auto" >
+            <div className="mx-auto max-w-[475px] " >
                 <div className='items-center' >
                 <h1 className="text-neutral-900 text-3xl font-bold font-['Inter'] leading-[48px] tracking-tight text-center " >Login or Sign Up</h1>
-                <p className="w-80 mx-auto text-center text-neutral-700 text-sm font-normal font-['Sen'] leading-5 tracking-tight py-4 " >Join millions of others in sharing successful moves on HelpMeOut.</p>
+                <p className=" mx-auto text-center text-neutral-700 text-sm font-normal font-['Sen'] leading-5 tracking-tight py-4 " >Join millions of others in sharing successful moves on HelpMeOut.</p>
                 </div>
                 <div>
-                    <div className="md:px-[123px] sm:px-0 md:w-[30rem] md:py-[3px] mx-auto bg-white rounded-xl border border-neutral-900 items-center" >
+                    <div className=" w-full py-[3px] mx-auto bg-white rounded-xl border border-neutral-900 items-center" >
                         <div className="ContinueWithGoogle text-neutral-900 text-base md:font-medium sm:font-light font-['Inter'] leading-normal tracking-tight inline-flex gap-5 ">
                             <img src={google} alt="" />
                             Continue with Google</div>
                     </div>
                     <br />
-                    <div className="md:px-[123px] sm:px-0 md:w-[30rem] py-0.5 mx-auto bg-white rounded-xl border border-neutral-900 justify-end items-center" >
+                    <div className="w-full py-[3px]  mx-auto bg-white rounded-xl border border-neutral-900 justify-end items-center" >
                         <div className="ContinueWithGoogle text-neutral-900 text-base font-medium font-['Inter'] leading-normal tracking-tight inline-flex gap-5 ">
                             <img src={fb} alt="" />
                             Continue with Facebook</div>
@@ -36,13 +36,13 @@ const Login = () => {
 
                     <img  className="pt-[30px] px-4 mx-auto " src={or} alt="" />
 
-                    <div className='grid justify-center' >
-                        <form action="" className='py-1 ' >Email</form>
-                        <input className="text-neutral-900 text-sm font-medium  font-['Work Sans'] p-2 md:w-[30rem] rounded-xl border border-gray-400   " type="email" name="email" id="" placeholder='Enter your email address' />
+                    <div className="text-neutral-900 text-sm font-medium  font-['Work Sans']" >
+                        <form action="" className='' >Email</form>
+                        <input className=" w-full rounded-xl border border-gray-400 py-[8px]  " type="email" name="email" id="" placeholder='Enter your email address' />
                     </div>
-                    <div className=' grid justify-center  ' >
+                    <div className="text-neutral-900 text-sm font-medium  font-['Work Sans']" >
                         <form action="" className='py-1 ' >Password</form>
-                        <input className="md:px-[123px] sm:px-0 md:w-[30rem] py-0.5 mx-auto bg-white rounded-xl border border-neutral-900  " type="password" name="password" id="" placeholder='Enter your password' />
+                        <input className="w-full py-[8px] mx-auto bg-white rounded-xl border border-gray-400  " type="password" name="password" id="" placeholder='Enter your password' />
                     </div>
 
                     <div className='py-6 ' >

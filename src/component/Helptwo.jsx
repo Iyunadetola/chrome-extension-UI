@@ -4,20 +4,22 @@ import settings from '../assets/setting-2.svg'
 import close from '../assets/close-circle.svg'
 import copy from '../assets/copy.svg'
 import monitor from '../assets/monitor.svg'
+import logo from '../assets/Frame 1000002580.svg'
 
 
 const Helptwo = () => {
     return (
-        <div>
-            <div className="w-72 h-96 px-6 pt-6 pb-8 bg-white rounded-3xl shadow flex-col justify-center items-center gap-10 inline-flex">
+        <div className='md:flex gap-60' >
+            <div className=" h-96 px-6 pt-6 pb-8 bg-white rounded-3xl shadow flex-col justify-center items-center  inline-flex">
                 <div className="self-stretch justify-between items-center inline-flex">
                     <div className="justify-start items-center gap-2 flex">
                         <div className="w-6 h-6 relative">
                             <div className="w-7 h-7 left-[-0px] top-[-0.11px] absolute">
                             </div>
                         </div>
-                        <div className='w-9 h-9' ><img src={bigIcon} alt="" /></div>
-                        <div className="text-indigo-950 text-base font-bold font-['Sora']">HelpMeOut</div>
+                        <div>
+                            <img src={logo} alt="" srcset="" />
+                        </div>
                     </div>
                     <div className="justify-start items-start gap-3 flex">
                         <div className="w-5 h-5 justify-center items-center flex">

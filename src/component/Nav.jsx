@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => {
     return (
         <div>
-            <div className=" h-12 justify-start items-center gap-10 inline-flex">
+            <div className=" h-12 justify-start items-center gap-10 inline-flex m-20 ">
                 <div className="px-4 py-3 bg-white rounded-3xl shadow justify-center items-center gap-2.5 flex">
                     <div className="text-center text-sky-600 text-xl font-medium font-['Work Sans']">Overview</div>
                 </div>

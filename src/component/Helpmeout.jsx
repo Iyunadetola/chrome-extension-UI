@@ -5,15 +5,18 @@ import img1 from '../assets/WEB CARD.png'
 import img2 from '../assets/WEB CARD (1).png'
 import img3 from '../assets/WEB CARD (2).png'
 import img4 from '../assets/WEB CARD (3).png'
+import logo from '../assets/Frame 1000002580.svg'
+import { Link } from 'react-router-dom'
 
 const Helpmeout = () => {
   return (
     <div className='m-4' >
     <div className='flex justify-between m-4' >
-        <div className='flex gap-2' >
-            <img src={icon} alt="" className='w-[40px]' srcset="" />
-            <h5>Helpmeout</h5>
+        <Link to='/' >
+        <div className='' >
+            <img src={logo} alt="" srcset="" />
         </div>
+        </Link>
 
         <div>
             <img src={john} alt="" srcset="" />

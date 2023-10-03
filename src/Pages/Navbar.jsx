@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import icon from '../assets/iCON 7 1.svg'
 import { Link } from 'react-router-dom'
 import bar from '../assets/menu.png'
-import Container from '../component/container/container'
+import Container from '../component/container/Container'
 import logo from '../assets/Frame 1000002580.svg'
 import '../Pages/Navbar.css'
 
