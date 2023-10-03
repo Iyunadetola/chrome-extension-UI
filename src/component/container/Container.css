@@ -1,0 +1,9 @@
+.child{
+    max-width: 1440px;
+    margin-inline: 1.5rem;
+}
+@media screen and (min-width: 1450px){
+    .child{
+        margin-inline: auto;
+    }
+}
